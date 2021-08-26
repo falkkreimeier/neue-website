@@ -1,0 +1,38 @@
+:root {
+    --color-1: ;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    display: grid; 
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fe 1.2fr 0.5fr; 
+}
+
+body {
+    background-color: aqua;
+}
+
+main {
+    background-color: aqua;
+}
+
+nav{
+    background-color: aqua;
+}
+
+div {
+    background-color: aqua;
+}
+
+footer {
+    background-color: aqua;
+}
