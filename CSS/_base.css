@@ -1,7 +1,9 @@
 :root {
   --border-radius: 5px;
   --main-padding: 5px;
-  --color-1: ;
+  --color-fond: black;
+  --fond-Headline: font-family: 'PT Serif', serif;
+  --fond-Text: font-family: 'PT Serif', serif;
 }
 
 html {
@@ -16,12 +18,12 @@ html {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 0.2fr;
+  grid-template-rows: 0.5fr 1.5fr 1.2fr 0.3fr 0.2fr;
   grid-template-areas:
     'nav nav nav nav'
     'profil main main main'
     'profil interessen fähigkeiten kontakt'
-    'link1 link2 link3 link4'
+    'portfolio xing github lakritzel'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
@@ -80,29 +82,29 @@ footer {
 }
 
 
-#link1 {
+#xing {
     background: white;
-    grid-area: link1;
+    grid-area: xing;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
 
-#link2 {
+#github {
     background: white;
-    grid-area: link2;
+    grid-area: github;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
 
-#link3 {
+#portfolio {
     background: white;
-    grid-area: link3;
+    grid-area: portfolio;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
-  #link4 {
+  #lakritzel {
     background: white;
-    grid-area: link4;
+    grid-area: lakritzel;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
@@ -153,4 +155,16 @@ li {
       position: relative;
       bottom: 5px;
       height: 15vh;
+  }
+
+  h1 {
+    font-family: var(--fond-Headline);
+  }
+
+  h2 {
+    font-family: var(--fond-Headline);
+  }
+
+  p {
+    font-family: var(--fond-Text);
   }
