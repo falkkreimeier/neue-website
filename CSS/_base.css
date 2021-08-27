@@ -1,115 +1,144 @@
 :root {
-    --border-radius: 5px;
-    --main-padding: 5px;
-    --color-1: ;
+  --border-radius: 5px;
+  --main-padding: 5px;
+  --color-1: ;
 }
 
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
 * {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .container {
-    display: grid; 
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr; 
-    grid-template-areas: 
-    "nav nav nav nav"
-    "profil main main main"
-    "profil interessen fähigkeiten kontakt"
-    "footer footer footer footer";
-    grid-gap: 0.2rem;
-    text-align: center;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 0.2fr;
+  grid-template-areas:
+    'nav nav nav nav'
+    'profil main main main'
+    'profil interessen fähigkeiten kontakt'
+    'profil link1 link2 link3'
+    'footer footer footer footer';
+  grid-gap: 0.2rem;
+  text-align: center;
 }
 
-
 main {
-    background: #6361c7;
-    grid-area: main;
+  background: #6361c7;
+  grid-area: main;
 }
 
 nav {
-    background: #7cf5f5;
-    grid-area: nav;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
+  background: #7cf5f5;
+  grid-area: nav;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 footer {
-    background: rgb(2, 107, 37);
-    grid-area: footer;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
+  background: rgb(2, 107, 37);
+  grid-area: footer;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 #profil {
-background: rgb(40, 82, 223);
-grid-area: profil;
-border-radius: var(--border-radius);
-padding: var(--main-padding);
+  background: rgb(40, 82, 223);
+  grid-area: profil;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 #interessen {
-    background: rgb(164, 253, 22);
-    grid-area: interessen;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
+  background: rgb(164, 253, 22);
+  grid-area: interessen;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 #fähigkeiten {
-    background: rgb(251, 255, 1);
-    grid-area: fähigkeiten;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
+  background: rgb(251, 255, 1);
+  grid-area: fähigkeiten;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 #kontakt {
-    background: rgb(212, 24, 11);
-    grid-area: kontakt;
+  background: rgb(212, 24, 11);
+  grid-area: kontakt;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
+
+
+#link1 {
+    /* background: rgb(212, 24, 11); */
+    grid-area: link1;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
-}
+  }
+
+#link2 {
+    background: rgb(212, 24, 11);
+    grid-area: link2;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
+
+#link3 {
+    background: rgb(212, 24, 11);
+    grid-area: link3;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
 
 ol {
   padding: 0;
   margin: 0;
-} 
+}
 
 li {
-    display: flex;
-    justify-content: center;
-    padding: 1px;
+  display: flex;
+  justify-content: center;
+  padding: 1px;
 }
 
 .hl {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    text-transform: upperclass;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: upperclass;
+  text-align: center;
 }
 
-@media only screen and (max-width: 700px) { 
-    .container {
+@media only screen and (max-width: 700px) {
+  .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr; 
-    grid-template-areas: 
-    "nav"
-    "profil"
-    "main"
-    "interessen"
-    "fähigkeiten"
-    "kontakt"
-    "footer"
+    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      'nav'
+      'profil'
+      'main'
+      'interessen'
+      'fähigkeiten'
+      'kontakt'
+      'link1'
+      'link2'
+      'link3'
+      'footer';
+  } 
 }
 
-    .profil {
-        height: 5vh;
-        /* position:relative; 
-        top: 1px; */
-    }
-}
-}
+  .profil {
+    height: 10vh;
+    position: relative;
+  }
+
+  .xing {
+      position: relative;
+      bottom: 5px;
+      height: 15vh;
+  }
