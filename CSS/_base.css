@@ -83,7 +83,7 @@ footer {
   }
 
 #link2 {
-    background: rgb(212, 24, 11);
+    /* background: rgb(212, 24, 11); */
     grid-area: link2;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
@@ -137,7 +137,7 @@ li {
     position: relative;
   }
 
-  .xing {
+  .link {
       position: relative;
       bottom: 5px;
       height: 15vh;
