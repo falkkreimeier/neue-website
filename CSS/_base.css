@@ -23,10 +23,11 @@ html {
     'nav nav nav nav'
     'profil main main main'
     'profil interessen fähigkeiten kontakt'
-    'portfolio xing github lakritzel'
+    'link xing github lakritzel'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
+  font-family: 'PT Serif', serif;
 }
 
 body {
@@ -96,17 +97,28 @@ footer {
     padding: var(--main-padding);
   }
 
+#link{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  background: white;
+  grid-area: link;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+  font-size: 5rem;
+  }
 #portfolio {
     background: white;
     grid-area: portfolio;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
-  #lakritzel {
-    background: white;
-    grid-area: lakritzel;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
+
+#lakritzel {
+  background: white;
+  grid-area: lakritzel;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
   }
 
 ol {
@@ -121,10 +133,10 @@ li {
 }
 
 .hl {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  text-transform: upperclass;
-  text-align: center;
+  text-transform: uppercase;
+  text-align: center; 
 }
 
 @media only screen and (max-width: 700px) {
@@ -153,18 +165,24 @@ li {
 
   .link {
       position: relative;
-      bottom: 5px;
-      height: 15vh;
+      top: 25px; 
+      height: 3rem; 
   }
+  
+  .link1 {
+    position: relative;
+    top: 20px; 
+    height: 5rem; 
+}
 
   h1 {
-    font-family: var(--fond-Headline);
+    font-family: 'Poppins', sans-serif;
   }
 
   h2 {
-    font-family: var(--fond-Headline);
+    font-family: 'Poppins', sans-serif;
   }
 
   p {
-    font-family: var(--fond-Text);
+    font-family: 'pt serif', serif;
   }
