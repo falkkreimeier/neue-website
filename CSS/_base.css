@@ -36,42 +36,44 @@ main {
 }
 
 nav {
-  background: #7cf5f5;
+  background: black;
+  color: white;
   grid-area: nav;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
 
 footer {
-  background: rgb(2, 107, 37);
+  background: black;
+  color:white;
   grid-area: footer;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
 
 #profil {
-  background: rgb(40, 82, 223);
+  background: white;
   grid-area: profil;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
 
 #interessen {
-  background: rgb(164, 253, 22);
+  background: white;
   grid-area: interessen;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
 
 #fähigkeiten {
-  background: rgb(251, 255, 1);
+  background: white;
   grid-area: fähigkeiten;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
 
 #kontakt {
-  background: rgb(212, 24, 11);
+  background: white;
   grid-area: kontakt;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
