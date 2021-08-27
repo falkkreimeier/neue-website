@@ -21,7 +21,7 @@ html {
     'nav nav nav nav'
     'profil main main main'
     'profil interessen fähigkeiten kontakt'
-    'profil link1 link2 link3'
+    'link1 link2 link3 link4'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
@@ -90,8 +90,14 @@ footer {
   }
 
 #link3 {
-    background: rgb(212, 24, 11);
+    /* background: rgb(212, 24, 11); */
     grid-area: link3;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
+  #link4 {
+    /* background: rgb(212, 24, 11); */
+    grid-area: link4;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
