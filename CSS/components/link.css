@@ -1,11 +1,10 @@
-#interessen {
+#link {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: white;
-    grid-area: interessen;
+    grid-area: link;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
+    font-size: 2rem;
   }
-
-  

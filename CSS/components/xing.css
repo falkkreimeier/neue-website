@@ -1,0 +1,6 @@
+#xing {
+    background: white;
+    grid-area: xing;
+    border-radius: var(--border-radius);
+    padding: 10px;
+  }

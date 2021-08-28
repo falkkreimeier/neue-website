@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    background: black;
+  background: black;
 }
 
 main {
@@ -52,70 +52,11 @@ nav {
 footer {
   text-align: center;
   background: black;
-  color:white;
+  color: white;
   grid-area: footer;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
-
-#profil {
-  background: white;
-  grid-area: profil;
-  border-radius: var(--border-radius);
-  padding: var(--main-padding);
-}
-
-#interessen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: white;
-  grid-area: interessen;
-  border-radius: var(--border-radius);
-  padding: var(--main-padding);
-}
-
-
-
-
-#xing {
-    background: white;
-    grid-area: xing;
-    border-radius: var(--border-radius);
-    padding: 10px;
-  }
-
-#github {
-    background: white;
-    grid-area: github;
-    border-radius: var(--border-radius);
-    padding: 10px;
-  }
-
-#link{
-  display: flex;  
-  justify-content: center;
-  align-items: center;
-  background: white;
-  grid-area: link;
-  border-radius: var(--border-radius);
-  padding: var(--main-padding);
-  font-size: 2rem;
-  }
-
-#portfolio {
-    background: white;
-    grid-area: portfolio;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
-  }
-
-#lakritzel {
-  background: white;
-  grid-area: lakritzel;
-  border-radius: var(--border-radius);
-  padding: 10px;
-  }
 
 ol {
   padding: 0;
@@ -132,7 +73,7 @@ li {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  text-align: center; 
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -151,29 +92,27 @@ li {
       'github'
       'lakritzel'
       'footer';
-  } 
+  }
 }
 
-  .link {
-      position: sticky;
-      height: 4rem; 
-  }
-  
-  .link1 {
-    position: sticky;
-    height: 5rem; 
+.link {
+  position: sticky;
+  height: 4rem;
 }
 
-  h1 {
-    font-family: 'Poppins', sans-serif;
-  }
+.link1 {
+  position: sticky;
+  height: 5rem;
+}
 
-  h2 {
-    font-family: 'Poppins', sans-serif;
-  }
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
 
-  p {
-    font-family: 'pt serif', serif;
-  }
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
 
-  
+p {
+  font-family: 'pt serif', serif;
+}

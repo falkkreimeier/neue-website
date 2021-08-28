@@ -1,7 +1,9 @@
-.profil {
-    
-}
-
+#profil {
+    background: white;
+    grid-area: profil;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
 .profil__image {
     position: sticky; 
     top: 30px;

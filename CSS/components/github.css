@@ -1,0 +1,6 @@
+#github {
+    background: white;
+    grid-area: github;
+    border-radius: var(--border-radius);
+    padding: 10px;
+  } 

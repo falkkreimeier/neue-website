@@ -1,0 +1,6 @@
+#lakritzel {
+    background: white;
+    grid-area: lakritzel;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    }

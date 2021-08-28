@@ -1,0 +1,6 @@
+#portfolio {
+    background: white;
+    grid-area: portfolio;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
