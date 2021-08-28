@@ -1,4 +1,7 @@
 #profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: white;
     grid-area: profil;
     border-radius: var(--border-radius);
@@ -6,6 +9,7 @@
   }
 .profil__image {
     position: sticky; 
-    top: 30px;
+    /* top: 50px; */
     height: 20rem;
+    
   }
