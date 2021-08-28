@@ -1,6 +1,9 @@
 .profil {
-    height: 60vh;
-    position:relative; 
-    top: 1px;
     
 }
+
+.profil__image {
+    position: sticky; 
+    top: 30px;
+    height: 20rem;
+  }

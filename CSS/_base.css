@@ -33,6 +33,7 @@ html {
 body {
     background: black;
 }
+
 main {
   background: white;
   grid-area: main;
@@ -47,6 +48,7 @@ nav {
 }
 
 footer {
+  text-align: center;
   background: black;
   color:white;
   grid-area: footer;
@@ -105,8 +107,9 @@ footer {
   grid-area: link;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  font-size: 5rem;
+  font-size: 2rem;
   }
+
 #portfolio {
     background: white;
     grid-area: portfolio;
@@ -142,7 +145,7 @@ li {
 @media only screen and (max-width: 700px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr 1fr 1fr 1fr 0.2fr;
     grid-template-areas:
       'nav'
       'profil'
@@ -150,28 +153,21 @@ li {
       'interessen'
       'fähigkeiten'
       'kontakt'
-      'link1'
-      'link2'
-      'link3'
-      'link4'
+      'link'
+      'xing'
+      'github'
+      'lakritzel'
       'footer';
   } 
 }
 
-  .profil {
-    height: 10vh;
-    position: relative;
-  }
-
   .link {
-      position: relative;
-      top: 25px; 
-      height: 3rem; 
+      position: sticky;
+      height: 4rem; 
   }
   
   .link1 {
-    position: relative;
-    top: 20px; 
+    position: sticky;
     height: 5rem; 
 }
 
@@ -186,3 +182,5 @@ li {
   p {
     font-family: 'pt serif', serif;
   }
+
+  
