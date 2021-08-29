@@ -13,19 +13,22 @@ html {
 }
 
 .container {
+  /* max-width: 1155px; */
+  margin: 0px 40px 0px 40px;
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 0.2fr;
   grid-template-areas:
-    'nav nav nav nav'
+    'header header header header'
     'profil main main main'
     'profil interessen fähigkeiten kontakt'
-    'link xing github lakritzel'
+    'portfolio xing github lakritzel'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
+  color: #58555A;
 }
 
 body {
@@ -41,10 +44,10 @@ main {
   grid-area: main;
 }
 
-nav {
+header {
   background: black;
   color: white;
-  grid-area: nav;
+  grid-area: header;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
 }
@@ -77,16 +80,16 @@ li {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr 1fr 1fr 1fr 0.2fr;
     grid-template-areas:
-      'nav'
+      'header'
       'profil'
       'main'
       'interessen'
       'fähigkeiten'
-      'kontakt'
-      'link'
+      'portfolio'
       'xing'
       'github'
       'lakritzel'
+      'kontakt'
       'footer';
   }
 }
@@ -107,7 +110,11 @@ li {
   text-align: center;
   font-size: 1.3rem;
   padding-bottom: 10px;
+  margin: 2px 0px 2px 0px;;
+  text-decoration: none;
+  color:black;
 }
+
 h1 {
   font-family: 'Playfair Display', serif;
 }
@@ -117,5 +124,6 @@ h2 {
 }
 
 p {
+  margin: 0px 0px 5px 0px;
   font-family: 'Inter', sans-serif;
 }
