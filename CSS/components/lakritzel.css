@@ -1,8 +1,9 @@
 #lakritzel {
+    display: flex;
+    justify-content: center;
     background: white;
     grid-area: lakritzel;
     border-radius: var(--border-radius);
-    width: var(--main-width);
     padding: 10px;
     }
 

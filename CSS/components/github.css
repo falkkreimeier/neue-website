@@ -1,4 +1,6 @@
 #github {
+    display: flex;
+    justify-content: center;
     background: white;
     grid-area: github;
     border-radius: var(--border-radius);

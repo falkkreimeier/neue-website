@@ -6,5 +6,5 @@
     grid-area: fähigkeiten;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
-    width: var(--main-width);
+    min-width: var(--main-width);
   }

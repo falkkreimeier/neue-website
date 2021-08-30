@@ -6,7 +6,7 @@
     grid-area: interessen;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
-    
+    min-width: var(--main-width);
   }
 
   

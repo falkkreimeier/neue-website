@@ -1,17 +1,17 @@
-#portfolio {
+.portfolio {
     display: flex;
-    justify-content: center;
-    align-items: center;;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
     background: white;
     grid-area: portfolio;
     border-radius: var(--border-radius);
     padding: var(--main-padding);
   }
-
-  #portfolio:hover {
-    background: #D4D4D4;
+  
+  .portfolio__img {
+    max-height: 10rem;
   }
-
-
+  
   
 
