@@ -1,10 +1,9 @@
 .fähigkeiten {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: white;
-    grid-area: fähigkeiten;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
-    min-width: var(--main-width);
-  }
+  display: flex;
+  flex-direction: column;
+  background: white;
+  grid-area: fähigkeiten;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+  min-width: var(--main-width);
+}

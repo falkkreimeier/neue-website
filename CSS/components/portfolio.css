@@ -1,9 +1,7 @@
 .portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
   background: white;
   grid-area: portfolio;
   border-radius: var(--border-radius);
@@ -13,4 +11,9 @@
 
 .portfolio__img {
   max-height: 7rem;
+  margin: 0px 0px 20px 0px;
+}
+
+.portfolio__text {
+  text-decoration: none;
 }

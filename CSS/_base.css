@@ -16,8 +16,9 @@ html {
 .container {
   margin: 0px 40px 0px 40px;
   display: grid;
+  /* height: 100vh; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 1fr 0.1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.4fr 0.3fr 1fr 0.1fr;
   grid-template-areas:
     'header header header header'
     'profil main main main'
@@ -37,7 +38,6 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background: white;
   grid-area: main;
@@ -54,14 +54,19 @@ header {
 }
 
 ol {
-  padding: 0;
+  margin: 0;
+}
+
+ul {
   margin: 0;
 }
 
 li {
-  display: flex;
-  justify-content: center;
-  padding: 1px;
+  /* display: flex;
+  justify-content: center; */
+  text-align: left;
+  padding-bottom: -5px;
+  /* padding: 1px; */
   font-family: 'Inter', sans-serif;
 }
 
@@ -72,8 +77,8 @@ li {
     grid-template-areas:
       'header'
       'profil'
-      'facts'
       'main'
+      'facts'
       'interessen'
       'fähigkeiten'
       'portfolio'
@@ -117,6 +122,25 @@ h2 {
 }
 
 p {
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 20px 0px;
   font-family: 'Inter', sans-serif;
+}
+
+.button {
+  /* max-width: 5rem; */
+  text-decoration: none;
+  border: 1px solid black;
+  padding: var(--main-padding);
+  border-radius: 20px;
+  background-color: #d4d4d4;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  /* text-transform: uppercase; */
+  box-shadow: 0px 0px 10px 5px black;
+}
+
+.button:hover {
+  background-color: black;
+  box-shadow: 0px 0px 5px 5px grey;
+  color: white;
 }

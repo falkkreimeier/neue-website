@@ -1,7 +1,4 @@
 .facts {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: white;
   grid-area: facts;
   border-radius: var(--border-radius);
