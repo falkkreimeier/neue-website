@@ -1,15 +1,16 @@
-.kontakt {
+footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  background: white;
-  grid-area: kontakt;
+  background: black;
+  color: white;
+  grid-area: footer;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  min-width: var(--main-width);
+  margin-top: 0.5rem;
 }
 
-.kontakt__icons {
+.footer__icons {
   height: 1rem;
+  padding-right: 0.5rem;
   padding-left: 2rem;
 }
