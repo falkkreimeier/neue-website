@@ -30,7 +30,6 @@ html {
   grid-gap: 0.2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
-  color: #58555A;
 }
 
 body {
@@ -119,7 +118,7 @@ li {
   padding-bottom: 10px;
   margin: 2px 0px 2px 0px;;
   text-decoration: none;
-  color:black;
+  color: #58555A;
 }
 
 h1 {
