@@ -1,7 +1,7 @@
 :root {
   --border-radius: 5px;
   --main-padding: 5px;
-  --main-width: 240px;
+  --main-width: 250px;
   --color-fond: black;
 }
 
@@ -14,18 +14,16 @@ html {
 }
 
 .container {
-  /* max-width: 1155px; */
   margin: 0px 40px 0px 40px;
   display: grid;
-  /* height: 100vh; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 2fr 0.2fr; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 1fr 0.1fr;
   grid-template-areas:
     'header header header header'
     'profil main main main'
-    'profil interessen fähigkeiten kontakt'
-    'portfolio xing github lakritzel'
-    'portfolio blog1 blog2 blog3'
+    'profil interessen fähigkeiten portfolio'
+    'facts xing github lakritzel'
+    'facts blog1 blog2 blog3'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;

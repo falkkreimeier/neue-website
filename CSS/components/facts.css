@@ -1,15 +1,9 @@
-.kontakt {
+.facts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: white;
-  grid-area: kontakt;
+  grid-area: facts;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  min-width: var(--main-width);
-}
-
-.kontakt__icons {
-  height: 1rem;
-  padding-left: 2rem;
 }

@@ -1,17 +1,16 @@
 .portfolio {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    background: white;
-    grid-area: portfolio;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
-  }
-  
-  .portfolio__img {
-    max-height: 10rem;
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: white;
+  grid-area: portfolio;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+  min-width: var(--main-width);
+}
 
+.portfolio__img {
+  max-height: 7rem;
+}
