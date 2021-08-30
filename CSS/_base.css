@@ -73,7 +73,7 @@ li {
 @media only screen and (max-width: 700px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1.2fr 1.2fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 0.4fr 2fr 2fr 1.2fr 1fr 1fr 1.4fr 0.5fr 0.5fr 0.5fr 0.2fr;
     grid-template-areas:
       'header'
       'profil'
@@ -132,7 +132,7 @@ p {
   border: 1px solid black;
   padding: var(--main-padding);
   border-radius: 20px;
-  background-color: #d4d4d4;
+  background-color: #white;
   font-family: 'Inter', sans-serif;
   color: black;
   /* text-transform: uppercase; */
