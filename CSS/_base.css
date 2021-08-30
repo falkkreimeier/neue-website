@@ -16,14 +16,15 @@ html {
   /* max-width: 1155px; */
   margin: 0px 40px 0px 40px;
   display: grid;
-  height: 100vh;
+  /* height: 100vh; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 0.2fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.3fr 2fr 0.2fr;
   grid-template-areas:
     'header header header header'
     'profil main main main'
     'profil interessen fähigkeiten kontakt'
     'portfolio xing github lakritzel'
+    'rückblick blog1 blog2 blog3'
     'footer footer footer footer';
   grid-gap: 0.2rem;
   text-align: center;
@@ -42,6 +43,8 @@ main {
   align-items: center;
   background: white;
   grid-area: main;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
 }
 
 header {
@@ -89,6 +92,9 @@ li {
       'xing'
       'github'
       'lakritzel'
+      'blog1'
+      'blog2'
+      'blog3'
       'kontakt'
       'footer';
   }
@@ -127,3 +133,48 @@ p {
   margin: 0px 0px 5px 0px;
   font-family: 'Inter', sans-serif;
 }
+
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  background: white;
+  grid-area: blog1;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
+
+.blog2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  background: white;
+  grid-area: blog2;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
+
+.blog3 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  background: white;
+  grid-area: blog3;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
+
+.rückblick {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  background: white;
+  grid-area: rückblick;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
+
