@@ -1,0 +1,32 @@
+.blog1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background: white;
+    grid-area: blog1;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
+  
+  .blog2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background: white;
+    grid-area: blog2;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
+  
+  .blog3 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background: white;
+    grid-area: blog3;
+    border-radius: var(--border-radius);
+    padding: var(--main-padding);
+  }
