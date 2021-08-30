@@ -72,6 +72,7 @@ li {
     grid-template-areas:
       'header'
       'profil'
+      'facts'
       'main'
       'interessen'
       'fähigkeiten'
@@ -82,7 +83,6 @@ li {
       'blog1'
       'blog2'
       'blog3'
-      'kontakt'
       'footer';
   }
 }
