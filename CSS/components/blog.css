@@ -25,13 +25,8 @@
   flex-direction: column;
   /* justify-content: center;
     align-items: center; */
-  background: white;
+  background-color: white;
   grid-area: blog3;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-}
-
-.blog__button--zentriert {
-  display: flex;
-  justify-content: center;
 }
