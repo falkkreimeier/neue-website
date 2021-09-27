@@ -1,13 +1,14 @@
 #xing {
-    display: flex;
-    justify-content: center;
-    background: white;
-    grid-area: xing;
-    border-radius: var(--border-radius);
-    min-width: var(--main-width);
-    padding: 10px;
-  }
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background: white;
+  grid-area: xing;
+  border-radius: var(--border-radius);
+  min-width: var(--main-width);
+  padding: 10px;
+}
 
-  #xing:hover {
-    background: #D4D4D4;
-  }
+#xing:hover {
+  background: #d4d4d4;
+}

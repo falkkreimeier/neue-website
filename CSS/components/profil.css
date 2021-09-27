@@ -1,16 +1,22 @@
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
 .profil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    grid-area: profil;
-    border-radius: var(--border-radius);
-    padding: var(--main-padding);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  grid-area: profil;
+  border-radius: var(--border-radius);
+  padding: var(--main-padding);
+}
 .profil__image {
-    position: sticky; 
-    /* top: 50px; */
-    height: 20rem;
-    padding: 20px;
-    
-  }
+  position: sticky;
+  /* top: 50px; */
+  height: 20rem;
+  padding: 0px;
+}
